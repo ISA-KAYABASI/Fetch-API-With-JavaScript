@@ -1,0 +1,47 @@
+#history, #payloads{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.containers{
+    margin: 40px 15px;
+}
+.searchBar{
+    margin: 40px 15px;
+    display: flex;
+    justify-content: center;
+}
+/* .navbar{
+    width: 570%;
+} */
+#myInput{
+    width: 50%;
+    /* height: 10%; */
+}
+.table {
+    box-shadow: 0 0 10px rgba(0, 128, 0, 0.1);
+     border-collapse: collapse; 
+    overflow: hidden;
+    font-weight: 700;
+}
+
+.table thead th{
+    background-color: rgb(75, 0, 130);
+    color: white;
+}
+
+.table td,
+.table th {
+    padding: 10px 20px;
+}
+.table tbody tr:nth-of-type(odd){
+    font-weight: 400;
+}
+.table tbody tr:nth-of-type(even){
+    background: rgba(75, 0, 130,0.1);
+    font-weight: 400;
+}
+.table tbody tr:last-of-type{
+    border-bottom: 2px solid rgb(75, 0, 130);
+    font-weight: 400;
+}
